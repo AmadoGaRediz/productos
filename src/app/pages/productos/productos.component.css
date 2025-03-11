@@ -1,0 +1,169 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c5c5c5;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h4 {
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Contenedor Principal */
+div {
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input y etiquetas */
+label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #c60035;
+    outline: none;
+}
+
+/* Botones */
+button {
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.btn-primary {
+    background-color: #c60035;
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #9e0031;
+}
+
+.btn-warning {
+    background-color: #f8bb00;
+    border: none;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #c8a800;
+}
+
+.btn-danger {
+    background-color: #e4587b;
+    border: none;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #d14165;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #c60035;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+table td {
+    padding: 10px 15px;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background-color: #f5f5f5;
+}
+
+table .btn-success {
+    background-color: #007bff;
+    border: none;
+    color: white;
+}
+
+table .btn-success:hover {
+    background-color: #0056b3;
+}
+
+/* Separadores */
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Ajuste de la columna */
+.col-sm-4 {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    div {
+        padding: 20px;
+    }
+
+    table th, table td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    input[type="text"], input[type="number"] {
+        padding: 8px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
